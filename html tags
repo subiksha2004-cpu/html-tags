@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Elements</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+        <fieldset>
+            <legend>Preferred Contact Method:</legend>
+            <input type="radio" id="contact_email" name="contact_method" value="email" checked>
+            <label for="contact_email">Email</label>
+
+            <input type="radio" id="contact_phone" name="contact_method" value="phone">
+            <label for="contact_phone">Phone</label>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
