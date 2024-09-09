@@ -22,6 +22,9 @@
             <input type="radio" id="contact_phone" name="contact_method" value="phone">
             <label for="contact_phone">Phone</label>
         </fieldset>
+<head>
+    <title>My Content</title>
+</head>
 
         <button type="submit">Submit</button>
     </form>
